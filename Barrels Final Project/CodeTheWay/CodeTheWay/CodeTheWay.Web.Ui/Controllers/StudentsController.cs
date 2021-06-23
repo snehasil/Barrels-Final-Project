@@ -10,16 +10,6 @@ namespace CodeTheWay.Web.Ui.Controllers
 {
     public class StudentsController : Controller
     {
-        private IStudentsService StudentService;
 
-        public StudentsController(IStudentsService studentsService)
-        {
-            this.StudentService = studentsService;
-        }
-
-        public async Task<IActionResult> Index()
-        {
-            return View();
-        }
     }
 }
